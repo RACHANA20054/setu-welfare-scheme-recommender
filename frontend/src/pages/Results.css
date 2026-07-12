@@ -1,0 +1,115 @@
+.results-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.results-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.results-header h1 {
+  color: var(--color-primary);
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scheme-card {
+  background-color: var(--color-card);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid var(--color-success);
+}
+
+.scheme-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.scheme-card-header h2 {
+  color: var(--color-primary);
+  font-size: 20px;
+}
+
+.scheme-badge {
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.scheme-category {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.scheme-benefit {
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.reasons-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.reasons-list {
+  margin: 0 0 14px 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.no-restrictions {
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+.official-link {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.official-link:hover {
+  text-decoration: underline;
+}
+
+.results-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
