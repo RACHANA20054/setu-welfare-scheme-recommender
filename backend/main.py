@@ -13,7 +13,10 @@ from matching_engine import check_eligibility
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://setu-welfare-scheme-recommender.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
