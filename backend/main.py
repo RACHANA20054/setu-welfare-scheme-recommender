@@ -8,12 +8,12 @@ from models import Scheme
 from schemas import SchemeOut
 from schemas import SchemeOut, CitizenIn, MatchResult
 from matching_engine import check_eligibility
-from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

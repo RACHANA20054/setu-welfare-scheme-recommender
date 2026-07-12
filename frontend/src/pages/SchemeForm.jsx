@@ -17,7 +17,7 @@ function SchemeForm() {
     setErrorMessage("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/match", {
+      const response = await fetch("https://setu-welfare-scheme-recommender.onrender.com/match",  {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
